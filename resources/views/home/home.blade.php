@@ -146,6 +146,24 @@
     </div>
     <!-- End Main Banner Area -->
 
+
+    <!-- Start About Area -->
+    <div class="about-area ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12">
+                    <div class="about-image">
+                        <video width="100%" height="240" controls>
+                            <source src="{{ asset('home/about.mp4') }}" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End About Area -->
+
     <!-- Start Services Area -->
     <div class="services-area pt-100">
         <div class="container">
